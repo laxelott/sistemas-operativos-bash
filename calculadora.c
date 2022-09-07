@@ -9,13 +9,13 @@ void suma() {
 }
 
 void resta() {
-    int a,b,res;
+    float a=0,b=0,res=0;
     printf("Digite el primer numero\n");
-    scanf("%d",&a);
+    scanf("%f",&a);
     printf("Digite el segundo numero\n");
-    scanf("%d",&b);
+    scanf("%f",&b);
     res=a-b;
-    printf("El resultado es\n %d",res);
+    printf("El resultado es\n %f",res);
  
 }
 
