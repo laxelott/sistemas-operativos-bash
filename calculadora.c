@@ -28,5 +28,5 @@ void div() {
 }
 
 void creditos() {
-    
+    printf("Grupo 2CM11\nEquipo 2\nVaquez Ortiz Luis Enrique\nJuarez Garcia Eliot Said\nLeon Durazo Bladimir\nTreviño Palacios Axel\nMontiel Gomez Erik Alain\nFernandez Brito Francisco\nRivera Morelos Eduardo Alfonso");
 }
