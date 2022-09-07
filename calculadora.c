@@ -16,8 +16,9 @@ void mult() {
 
 }
 
-void div() {
-
+void div(int a, int b) {
+    
+    z=a/b;
 }
 
 void creditos() {
