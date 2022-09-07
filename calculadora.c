@@ -2,18 +2,20 @@ int main()
 {
     int continuar = 1;
     int opcion;
+    char *opciones[5];
+    opciones[0] = "Suma";
+    opciones[1] = "Resta";
+    opciones[2] = "Multiplicación";
+    opciones[3] = "División";
+    opciones[4] = "Salir";    
 
     while (continuar)
     {
-
-        printf("--- Calculadora ---");
-        printf("1. Suma");
-        printf("2. Resta");
-        printf("3. Multiplicación");
-        printf("4. División");
-        printf("5. Creditos");
-        printf("6. Salir");
-        print("Escoga la opción:");
+        printf("--- Calculadora C: ---");
+        for (int i=0; i<5; ++i) {
+            print("%d. %s", i+1, opciones[i]);
+        }
+        print("Escoge la opción:");
 
         scanf("%d", &opcion);
 
